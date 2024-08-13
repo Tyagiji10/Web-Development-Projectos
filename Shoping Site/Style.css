@@ -1,0 +1,313 @@
+body{
+    background-image: url(Images/Background.jpeg);
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+
+   
+}
+
+
+
+            /* Add styles for the header and links */
+			header {
+				background-color: rgba(34, 34, 34, 0.11);
+				color: #424242;
+				padding: 2px 0;
+				margin-top: 0px;
+                margin-block-end:5px;
+                border-radius: 10px;
+            
+			}
+	
+			.container {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				
+			}
+	
+			.logo a {
+				text-decoration: none;
+				color: #fff;
+				font-size: 26px;
+				font-weight: bold;
+                margin-inline: 1vw;
+             
+			}
+	
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				display: flex;
+                margin-inline: 1vw;
+              
+               
+			}
+	
+			nav li {
+				margin: 0 5px;
+			}
+	
+			nav a {
+				text-decoration: none;
+				color: #adadad;
+				font-weight: bold;
+				transition: color 0.3s ease;
+                align-items: center;
+                
+			}
+	
+			nav a:hover {
+				color: #ff5733; 
+			}
+
+            /* styles.css */
+.search-container {
+    text-align: center;
+    margin-top: 0px;
+    
+   
+} 
+
+.search-bar {
+    padding: 3px 5px;
+    width:50vw;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.089);
+    
+	
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 3px 5px;
+    font-size: 20px;
+    color: #f2f2f2;
+
+
+}
+
+:placeholder{
+    color:rgb(255, 255, 255) ;
+}
+
+.search-bar button img{
+    width: 23px;
+   
+
+}
+.search-bar button{
+    border: 0;
+    border-radius: 60%;
+    width: 38px;
+    height: 38px;
+    background: #7b7b7b5b;
+    cursor: pointer;
+    margin-left: 14%;
+   
+    
+
+}
+
+ 
+.head .head-top{
+	align-items: center;
+    background: rgba(0, 0, 0, 0.452);
+    margin-block-start: 8px;
+    margin-block-end: 8px;
+   
+   
+
+}
+.video-1{
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+
+ 
+.buy-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    right: 2%;
+    
+
+    
+    
+}
+.buy-button:hover {
+    background-color: #0150a5;
+}
+
+
+.product-item {
+background-color: #ffffff;
+padding: 10px; 
+border-radius: 5px; 
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+margin-block: 10px;
+display: flex;
+align-items: center;
+}
+
+
+.contact-info{
+    background-color: rgba(255, 255, 255, 0.11);
+    padding: 10px;
+    box-shadow: 3px;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-inline: 80px;
+    display: flex;
+    backdrop-filter: blur(2px);
+}
+
+
+.contact-details{
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    box-shadow: 3px,;
+    background: rgba(242, 242, 242, 0.74);
+    backdrop-filter: blur(1px);
+    margin-inline:20px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+.contact-details form h1{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 500px;
+    text-align:center;
+}
+
+.contact-details form input{
+    width:270px;
+    height: 40px;
+    align-items: center;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 2px;
+    background: none;
+    border-bottom: 1px solid #000000;
+}
+
+.contact-details form input::placeholder{
+    color: #000000;
+}
+
+.contact-details form #Lastname,
+.contact-details form #Mobileno,
+.contact-details form #Firstname,
+.contact-details form #Email{
+    margin-inline:120px;
+    display: inline;
+    align-items: center;
+}
+
+.contact-details form h3{
+    color: #000000;
+    font-weight:300;
+    font-size:20px;
+    width: 600pxs;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-details form textarea{
+    background: none;
+    border: none;
+    border-bottom:2px solid rgb(181, 181, 181)8b8  ;
+    color: #424242;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    margin-inline:100px;
+    outline: none;
+    min-width: 400px;
+    max-width: 450px;
+    min-height:140px;
+    max-height:140px;
+
+}
+
+textarea::webkit-scrollbar{
+    width:1em;
+}
+
+textarea::webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+    .contact-details form #button{
+    border:none;
+    background :
+    #fff ;
+    border-radius: 5px;
+    margin-inline: 25%;
+
+    }
+
+.product-item h2 {
+font-size: 1.2em;
+margin-inline: 0.5em;
+position: relative;
+}
+
+.product-item h3{
+    position: absolute;
+    right: 8%;
+    font-size: medium;
+    margin-top:50px;
+    margin-right: 8%;
+   
+}
+
+.product-item p {
+    position: relative;
+    width:90% ;
+    padding: 2%;
+    
+}
+
+.product-item .container-list {
+    position: relative;
+    width:50%;
+    padding: 2%;
+}
+
+
+
+.footer-container{
+    color:#f2f2f2
+
+}
+
+
+@media screen and(max-width:1080px){
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap')
